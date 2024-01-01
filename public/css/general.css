@@ -1,0 +1,21 @@
+:root{
+--Font-roboto:'Roboto', sans-serif; 
+/*tamanios*/
+--Cuerpos-texto: 12px;
+--Titulares: 24px;
+--Precios: 18px;
+--Descuentos-descripciones:16px;
+/*colores*/
+--amarillo: #EAC926;
+--azul: #03264C;
+--celeste: #1259c3;
+--gris-oscuro: #666;
+--gris-claro: #ebebeb;
+--verde: #39b54a;
+}
+/* <i class="fa-solid fa-basket-shopping"></i> */
+* {
+    font-family: var(--Font-roboto);
+}
+
+nav.nav-margin {}

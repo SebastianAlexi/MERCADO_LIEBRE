@@ -1,0 +1,12 @@
+.body{
+
+}
+.body h2{
+    font-size: var(--Titulares);
+}
+.precios{
+font-size:var(--Precios) ;
+}
+.ofertas-descuentos{
+font-size:var(--Descuentos-descripciones);
+}

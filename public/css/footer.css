@@ -1,0 +1,18 @@
+.footer{
+
+}
+.footer-parrafos{
+    text-align: center;
+}
+.footer-parrafos h2 {
+    margin: 0;
+}
+.footer-parrafos h4 {
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+.footer-color-iconos section i{
+    color: var(--celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
