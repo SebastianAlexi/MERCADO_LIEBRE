@@ -17,5 +17,27 @@
 * {
     font-family: var(--Font-roboto);
 }
+*{
+    box-sizing: border-box;
+}
 
 nav.nav-margin {}
+
+@media(min-device-width:361px){
+    .body div{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .barras{
+        display: none;
+    }
+    .headerList li a{
+        color: black;
+        text-decoration: none;
+    
+    }
+    .headerList {
+        padding: 0;
+        display: block;
+    }
+}
+@media(min-device-width:769px){}

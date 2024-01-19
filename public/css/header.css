@@ -1,21 +1,20 @@
 .home{
 
 }
+.logo{}
 .header {
     background-color: var(--amarillo);
-padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 .barraBusc{
     border: solid 1px var(--gris-oscuro);
-    width: 47%;
-    font-size: 210%;
     color: var(--gris-oscuro);
     background-color: var(--gris-claro);
     margin: 1px;
+    width: 170px;
 }
 .lupa{
-    width: 10%;
-    height: 16px;
+    display: inline;
     margin: 1px;
     margin-bottom: 7%;
 }
@@ -23,11 +22,11 @@ padding-bottom: 30px;
     color: black;
 }
 .lupa a i {
-    padding: 3% 1% 4% 5%;
+    font-size: 13px;
     border: solid 1px var(--gris-oscuro);
     background-color: var(--gris-claro);
     border-radius: 10%;
-    font-size: 250%;
+    padding: 3px;
 }
 .parrafocen{
     text-align: center;
@@ -37,28 +36,26 @@ padding-bottom: 30px;
 }
 
 .header img{
+    margin-left: 20px;
     margin-top: 6%;
     margin-bottom: 2%;
     width: 34%;
 }
-.headerList li a{
-    color: black;
-    text-decoration: none;
-
+.headerList{
+    display: none;
 }
-.headerList {
-    padding: 0;
+.barras{
+    display: flex;
+    justify-content: center;
 }
 .barras i{
-    margin-left: 50%;
-    padding: 1%;
-    width: 45.04px;
+    padding: 9px;
     background-color: var(--celeste);
     border: solid 1% var(--celeste);
     border-radius: 15%;
     color: var(--gris-claro);
-    font-size: 200%;
+    font-size: 27px;
 }
 .nav-margin{
-    margin-left: 6%;
+    margin-left: 20px;
 }
