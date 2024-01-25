@@ -18,26 +18,102 @@
     font-family: var(--Font-roboto);
 }
 *{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 
-nav.nav-margin {}
+
 
 @media(min-device-width:361px){
-    .body div{
+.body div{
+        width: 45%;
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
-    .barras{
+.barras{
         display: none;
     }
-    .headerList li a{
+.headerList1 li a{
+        font-size: 2.2vw;
         color: black;
         text-decoration: none;
-    
     }
-    .headerList {
-        padding: 0;
-        display: block;
+.headerList2 li a{
+        font-size: 2.2vw;
+        color: black;
+        text-decoration: none;
     }
+.headerList {
+    display: block;
+    }
+.body section{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
-@media(min-device-width:769px){}
+.body h2{
+    width: 100%;
+}
+.header{
+    padding: 5% 2% 2%;
+    align-items: center;
+    gap: 1%;
+    justify-content: flex-start;
+}
+.header img{
+    width: 35%;
+}
+.barraBusc{
+
+}
+nav.nav-margin {
+    height: 16px;
+    width: 25%;
+}
+.parrafocen{width: 100%;
+    font-size: 1.8vw;
+    text-align: left;
+}
+.header section{
+    width: 38%;
+}
+.header nav{
+
+}
+.header nav ul{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+}
+.header nav ul li{
+
+}
+.header .listas{
+    margin-top: 3%;
+    width: 100%;
+    gap: 19px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+}
+
+@media(min-device-width:769px){
+    .body div{
+    width: 23%;
+}
+.parrafocen{width: 100%;
+    font-size: 1vw;
+}
+.headerList1 li a{
+    font-size: 2vw;
+
+}
+.headerList2 li a{
+    font-size: 2vw;
+}
+}

@@ -11,7 +11,7 @@ let getPath = (dirURL,dirArchivo)=>{
 
 getPath('home','home')
 getPath('','home')
-
+getPath('crearCuenta', 'crearCuenta')
 
 
 

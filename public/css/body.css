@@ -4,18 +4,38 @@
 }
 .body section{display: flex;flex-direction: column;width: 90vw;margin: auto;gap: 10px;color: var(--gris-oscuro);}
 .body div{
+    display: flex;
     box-shadow: none;
+    flex-direction: column;
 }
 .body div img{
     width: 100%;
 }
 .body div nav{
+    height: 100%;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 13%;
+    justify-content: flex-start;
+    display: flex;
     border-top: solid 1px var(--gris-claro);
     background-color: white;
     padding: 15px;
 }
-.body div nav i{padding: 16px 14px;border-radius: 100%;border: solid 1px var(--verde);color: var(--verde);margin-bottom: 1px;}
-.precios{font-size:var(--Precios);color: black;margin: 1px;}
+/*.body div nav i{padding: 16px 14px;border-radius: 100%;border: solid 1px var(--verde);color: var(--verde);margin-bottom: 1px;}
+.precios{font-size:var(--Precios);color: black;margin: 1px;}*/
+.body div nav i{display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+   }
 .ofertas-descuentos{font-size:var(--Descuentos-descripciones);color: var(--verde);margin-top: 1px;}
 .titulo{
     font-size: var(--Descuentos-descripciones);
