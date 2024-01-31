@@ -1,0 +1,116 @@
+.crearCuenta{
+    padding-top: 10%;
+    background: var(--gris-claro);
+}
+.crearCuenta form{
+    padding: 5%;
+    gap: 5vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.crearCuenta form div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.crearCuenta form input{
+    border-radius: 8px;
+    border: none;
+    background: white;
+    width: 100%;
+    height: 5vh;
+}
+.crearCuenta form label.nacimiento{
+    font-weight: bold;
+    font-size: 6vw;
+    align-self: start;
+}
+.crearCuenta form label.nacimiento input{}
+.crearCuenta form label.perfilUs1 {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+}
+.crearCuenta form label.perfilUs2 {display: flex;align-items: center;gap: 20%;}
+.crearCuenta form label.perfilUs1 input{
+    width: 5vh;
+}
+.crearCuenta form label.perfilUs2 input{width: 5vh;}
+.crearCuenta form label.perfilUsText{
+    font-weight: bold;
+    font-size: 6vw;
+    align-self: start;
+}
+.crearCuenta form label.intereses1{
+    font-weight: bold;
+    font-size: 6vw;
+    align-self: start;
+}
+.crearCuenta form label.intereses2{
+    align-items: center;
+    gap: 4vh;
+    flex-wrap: wrap;
+    width: 100%;
+    display: inline-flex;
+}
+.crearCuenta form label.intereses2 input{width: 2vh;}
+.crearCuenta form label.intereses2 label{
+    width: 34vh;
+}
+.crearCuenta form div.botonesReg{}
+.crearCuenta form div.botonesReg button{
+    height: 4vh;
+    border-radius: 7px;
+    border: none;
+    background: white;
+    width: 12vh;
+}
+.crearCuenta form div.botonesReg button.enviarbut{
+    background: var(--celeste);
+}
+.crearCuenta form div.botonesReg button.enviarbut a{
+    color: white;
+    font-weight: bold;
+}
+.crearCuenta form div.botonesReg button.borrarbut{
+}
+.crearCuenta form label.ftoTEXT{
+    font-weight: bold;
+    font-size: 6vw;
+    align-self: start;
+}
+@media(min-device-width:361px){
+.crearCuenta{}
+.crearCuenta form{}
+.crearCuenta form input{}
+.crearCuenta form label.nacimiento{}
+.crearCuenta form label.nacimiento input{}
+.crearCuenta form label.perfilUs{}
+.crearCuenta form label.intereses1{}
+.crearCuenta form label.intereses2{}
+.crearCuenta form label.intereses2 input{}
+.crearCuenta form div.botonesReg{}
+.crearCuenta form div.botonesReg button{}
+.crearCuenta form div.botonesReg button.enviarbut{}
+.crearCuenta form div.botonesReg button.enviarbut a{}
+.crearCuenta form div.botonesReg button.borrarbut{}
+}
+@media(min-device-width:769px){
+.crearCuenta{}
+.crearCuenta form{}
+.crearCuenta form input{}
+.crearCuenta form label.nacimiento{}
+.crearCuenta form label.nacimiento input{}
+.crearCuenta form label.perfilUs{}
+.crearCuenta form label.intereses1{}
+.crearCuenta form label.intereses2{}
+.crearCuenta form label.intereses2 input{}
+.crearCuenta form div.botonesReg{}
+.crearCuenta form div.botonesReg button{}
+.crearCuenta form div.botonesReg button.enviarbut{}
+.crearCuenta form div.botonesReg button.enviarbut a{}
+.crearCuenta form div.botonesReg button.borrarbut{}
+}
+

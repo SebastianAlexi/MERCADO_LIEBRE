@@ -11,9 +11,8 @@ let getPath = (dirURL,dirArchivo)=>{
 
 getPath('home','home')
 getPath('','home')
-
-
-
+getPath('crear-cuenta', 'crearCuenta')
+getPath('ingresar','login')
 
 
 app.listen(port,()=>{console.log(`http://localhost:${port}`)})

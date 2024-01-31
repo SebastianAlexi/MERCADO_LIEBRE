@@ -1,0 +1,31 @@
+main.login{
+    background: var(--gris-claro);
+    align-items: center;
+    height: 200px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+main.login form{
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+main.login form input{
+    border-radius: 6px;
+    border: none;
+    height: 30px;
+    width: 70%;
+}
+main.login form button{
+    border-radius: 6px;
+    font-weight: bold;
+    color: var(--gris-claro);
+    border: none;
+    background: var(--celeste);
+    height: 30px;
+    width: 70%;
+}

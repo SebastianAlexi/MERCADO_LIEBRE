@@ -3,48 +3,50 @@
 }
 .logo{}
 .header {
+    justify-content: space-between;
+    padding: 5%;
+    flex-wrap: wrap;
+    display: flex;
     background-color: var(--amarillo);
-    padding-bottom: 30px;
 }
+.header section{display: flex;margin-top: 1%;}
 .barraBusc{
-    border: solid 1px var(--gris-oscuro);
+    border-radius: 5px 0px 0px 5px;
+    height: 100%;
+    border: none;
     color: var(--gris-oscuro);
     background-color: var(--gris-claro);
-    margin: 1px;
-    width: 170px;
+    width: 100%;
 }
-.lupa{
-    display: inline;
-    margin: 1px;
-    margin-bottom: 7%;
-}
+.lupa{display: flex;border-radius: 0px 5px 5px 0px;height: 100%;background-color: var(--gris-claro);}
 .lupa a {
-    color: black;
+    align-self: center;
+    color: var(--gris-oscuro);
 }
 .lupa a i {
     font-size: 13px;
-    border: solid 1px var(--gris-oscuro);
-    background-color: var(--gris-claro);
-    border-radius: 10%;
-    padding: 3px;
 }
-.parrafocen{
-    text-align: center;
-}
+.parrafocen{text-align: center;}
 .parrafocen i {
     margin: 3%;
 }
 
 .header img{
-    margin-left: 20px;
-    margin-top: 6%;
-    margin-bottom: 2%;
-    width: 34%;
+    width: 50%;
 }
-.headerList{
+.headerList1{
+    width: 40%;
+    align-self: start;
+    display: none;
+}
+.headerList2{
+    gap: 1%;
+    width: 50%;
+    align-self: end;
     display: none;
 }
 .barras{
+    margin: 3% auto;
     display: flex;
     justify-content: center;
 }
@@ -56,6 +58,7 @@
     color: var(--gris-claro);
     font-size: 27px;
 }
-.nav-margin{
-    margin-left: 20px;
+nav.nav-margin {
+    width: 50%;
+    display: flex;
 }
